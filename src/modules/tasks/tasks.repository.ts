@@ -25,6 +25,7 @@ export class TasksRepository {
 
   async create(description: string){
     const { id } = await this.documentService.create(this.COLLECTION_NAME, { description });
-    return new Task(id, description);
+    const task = new Task(id, description);
+    return task;
   }
 }
