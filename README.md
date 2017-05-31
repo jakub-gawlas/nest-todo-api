@@ -3,7 +3,7 @@
 #### Used:
 - [nest](https://github.com/kamilmysliwiec/nest) as Node.js framework
 - [swaddle](https://github.com/danielstjules/swaddle) for http requests
-- [YaaS services](www.yaas.io) for data persistence
+- [YaaS services](https://yaas.io) for data persistence
 
 ### Installation
 
